@@ -1,0 +1,9 @@
+[package]
+name = "discord-bot-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.14.0", features = ["macros"] }
+serenity = { default-features = false, features = ["client", "gateway", "model", 
+"rustls_backend"], version = "0.10.9"}
